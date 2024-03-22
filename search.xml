@@ -4,13 +4,100 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2024/03/22/hello-world/"/>
-      <url>/2024/03/22/hello-world/</url>
+      <title>mac安装nginx</title>
+      <link href="/2024/03/22/mac-an-zhuang-nginx/"/>
+      <url>/2024/03/22/mac-an-zhuang-nginx/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>nginx</p><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 nginx</span></span><br><span class="line">brew install nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">卸载 nginx</span></span><br><span class="line">brew uninstall nginx</span><br><span class="line">brew uninstall nginx@版本号</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看 nginx 安装信息</span></span><br><span class="line">brew info nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动、停止、重启nginx(推荐)</span></span><br><span class="line">brew services start nginx</span><br><span class="line">brew services stop nginx</span><br><span class="line">brew services restart nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nginx原生常用命令启动、停止、重新加载配置文件(不推荐)</span></span><br><span class="line">nginx #启动nginx</span><br><span class="line">nginx -s reload #重新加载配置文件 ，热加载配置文件</span><br><span class="line">nginx -s quit #:推荐 待nginx进程处理任务完毕进行停止</span><br><span class="line">nginx -s stop #:先查出nginx进程id再使用kill命令强制杀掉进程。</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询 nginx 进程</span></span><br><span class="line">ps aux|grep nginx</span><br><span class="line">ps -ef|grep nginx</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置 nginx</span></span><br></pre></td></tr></tbody></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信小程序备案所需材料</title>
+      <link href="/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/"/>
+      <url>/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/</url>
+      
+        <content type="html"><![CDATA[<h3 id="主办人信息"><a href="#主办人信息" class="headerlink" title="主办人信息"></a>主办人信息</h3><ul><li><p>地区</p></li><li><p>主办者性质：企业</p></li><li><p>证件类型：营业执照（个人/企业）</p></li><li><p>营业执照（照片）</p></li><li><p>企业名称</p></li><li><p>证件住所</p></li><li><p>营业执照号</p></li></ul><h3 id="主体信息"><a href="#主体信息" class="headerlink" title="主体信息"></a>主体信息</h3><ul><li><p>主体名称</p></li><li><p>通讯地址</p></li><li><p>备注</p></li></ul><h3 id="主体负责人信息"><a href="#主体负责人信息" class="headerlink" title="主体负责人信息"></a>主体负责人信息</h3><ul><li><p>证件类型</p></li><li><p>证件正面（照片）</p></li><li><p>证件反面（照片）</p></li><li><p>负责人姓名</p></li><li><p>身份证号</p></li><li><p>身份证有效期</p></li><li><p>手机号</p></li><li><p>应急手机号</p></li><li><p>邮件地址</p></li></ul><h3 id="小程序基础信息"><a href="#小程序基础信息" class="headerlink" title="小程序基础信息"></a>小程序基础信息</h3><ul><li><p>AppId</p></li><li><p>小程序名称</p></li><li><p>服务内容标识：生活服务-工具（示例，根据自己实际情况选择）</p></li><li><p>互联网信息服务前置审批项目</p></li><li><p>备注（选填）：一般建议在此处对小程序内容进行简述</p></li></ul><h3 id="小程序管理员信息"><a href="#小程序管理员信息" class="headerlink" title="小程序管理员信息"></a>小程序管理员信息</h3><ul><li><p>证件类型</p></li><li><p>证件正面（照片）</p></li><li><p>证件反面（照片）</p></li><li><p>负责人姓名</p></li><li><p>身份证有效期</p></li><li><p>身份证号</p></li><li><p>手机号</p></li><li><p>应急手机号</p></li><li><p>邮件地址</p></li></ul><h3 id="上传材料"><a href="#上传材料" class="headerlink" title="上传材料"></a>上传材料</h3><ul><li><p>互联网信息服务承诺书</p></li><li><p>小程序负责人授权书：如果小程序负责人（管理员）与法人不一致，则需要此项</p></li><li><p>主体其他附件</p></li><li><p>小程序其他附件</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SpringCloud入门</title>
+      <link href="/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/"/>
+      <url>/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/ThinkWon/article/details/103715146">Spring Cloud入门-十分钟了解Spring Cloud-CSDN博客</a></p><p>序号    内容    链接地址<br>1    Spring Cloud入门-十分钟了解Spring Cloud    <a href="https://blog.csdn.net/ThinkWon/article/details/103715146">https://blog.csdn.net/ThinkWon/article/details/103715146</a><br>2    Spring Cloud入门-Eureka服务注册与发现(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103726655">https://blog.csdn.net/ThinkWon/article/details/103726655</a><br>3    Spring Cloud入门-Ribbon服务消费者(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103729080">https://blog.csdn.net/ThinkWon/article/details/103729080</a><br>4    Spring Cloud入门-Hystrix断路器(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103732497">https://blog.csdn.net/ThinkWon/article/details/103732497</a><br>5    Spring Cloud入门-Hystrix Dashboard与Turbine断路器监控(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103734664">https://blog.csdn.net/ThinkWon/article/details/103734664</a><br>6    Spring Cloud入门-OpenFeign服务消费者(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103735751">https://blog.csdn.net/ThinkWon/article/details/103735751</a><br>7    Spring Cloud入门-Zuul服务网关(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103738851">https://blog.csdn.net/ThinkWon/article/details/103738851</a><br>8    Spring Cloud入门-Config分布式配置中心(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103739628">https://blog.csdn.net/ThinkWon/article/details/103739628</a><br>9    Spring Cloud入门-Bus消息总线(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103753372">https://blog.csdn.net/ThinkWon/article/details/103753372</a><br>10    Spring Cloud入门-Sleuth服务链路跟踪(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103753896">https://blog.csdn.net/ThinkWon/article/details/103753896</a><br>11    Spring Cloud入门-Consul服务注册发现与配置中心(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103756139">https://blog.csdn.net/ThinkWon/article/details/103756139</a><br>12    Spring Cloud入门-Gateway服务网关(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103757927">https://blog.csdn.net/ThinkWon/article/details/103757927</a><br>13    Spring Cloud入门-Admin服务监控中心(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103758697">https://blog.csdn.net/ThinkWon/article/details/103758697</a><br>14    Spring Cloud入门-Oauth2授权的使用(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103761687">https://blog.csdn.net/ThinkWon/article/details/103761687</a><br>15    Spring Cloud入门-Oauth2授权之JWT集成(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103763364">https://blog.csdn.net/ThinkWon/article/details/103763364</a><br>16    Spring Cloud入门-Oauth2授权之基于JWT完成单点登录(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103766368">https://blog.csdn.net/ThinkWon/article/details/103766368</a><br>17    Spring Cloud入门-Nacos实现注册和配置中心(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103769680">https://blog.csdn.net/ThinkWon/article/details/103769680</a><br>18    Spring Cloud入门-Sentinel实现服务限流、熔断与降级(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103770879">https://blog.csdn.net/ThinkWon/article/details/103770879</a><br>19    Spring Cloud入门-Seata处理分布式事务问题(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103786102">https://blog.csdn.net/ThinkWon/article/details/103786102</a><br>20    Spring Cloud入门-汇总篇(Hoxton版本)    <a href="https://blog.csdn.net/ThinkWon/article/details/103786588">https://blog.csdn.net/ThinkWon/article/details/103786588</a><br>————————————————</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mac常用操作</title>
+      <link href="/2024/03/05/mac-chang-yong-cao-zuo/"/>
+      <url>/2024/03/05/mac-chang-yong-cao-zuo/</url>
+      
+        <content type="html"><![CDATA[<h3 id="mac电脑安装软件，提示已损坏"><a href="#mac电脑安装软件，提示已损坏" class="headerlink" title="mac电脑安装软件，提示已损坏"></a>mac电脑安装软件，提示已损坏</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo spctl  --master-disable</span><br><span class="line">sudo xattr -r -d com.apple.quarantine /Applications/XXXX.app</span><br></pre></td></tr></tbody></table></figure><h3 id="Myql启动命令"><a href="#Myql启动命令" class="headerlink" title="Myql启动命令"></a>Myql启动命令</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql.server start</span><br></pre></td></tr></tbody></table></figure><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务端</span></span><br><span class="line">redis-server</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">关闭服务端</span></span><br><span class="line">edis-cli SHUTDOWN</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，按照默认配置连接redis（127.0.0.1:6379）</span></span><br><span class="line">redis-cli</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，指定地址和端口号</span></span><br><span class="line">edis-cli -h 127.0.0.1 -p 6379</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 设置临时密码</span></span><br><span class="line">config set requirepass 密码</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 获取临时密码</span></span><br><span class="line">config get requirepass</span><br></pre></td></tr></tbody></table></figure><h3 id="npm相关"><a href="#npm相关" class="headerlink" title="npm相关"></a>npm相关</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 pnpm，提升依赖的安装速度</span></span><br><span class="line">npm config set registry https://registry.npmjs.org</span><br><span class="line">npm install -g pnpm</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装依赖</span></span><br><span class="line">pnpm install</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务</span></span><br><span class="line">npm run dev</span><br></pre></td></tr></tbody></table></figure><h3 id="svn"><a href="#svn" class="headerlink" title="svn"></a>svn</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">下载代码库</span></span><br><span class="line">svn checkout [repository URL] [local directory]</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">提交代码</span></span><br><span class="line">svn commit -m "commit message"</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新代码</span></span><br><span class="line">svn update</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看文件更改</span></span><br><span class="line">svn status</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">撤销更改</span></span><br><span class="line">svn revert [file name]</span><br></pre></td></tr></tbody></table></figure><h3 id="nacos-启动"><a href="#nacos-启动" class="headerlink" title="nacos 启动"></a>nacos 启动</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sh startup.sh -m standalone</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">浏览器访问</span></span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
       
     </entry>
     
