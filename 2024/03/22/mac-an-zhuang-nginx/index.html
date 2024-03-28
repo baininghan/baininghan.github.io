@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="mac安装nginx, 程序员老白">
     <meta name="description" content="nginx
-1234567891011121314151617181920212223# 安装 nginxbrew install nginx# 卸载 nginxbrew uninstall nginxbrew uninstall ngin">
+# 安装 nginxbrew install nginx# 卸载 nginxbrew uninstall nginxbrew uninstall nginx@版本号# 查看 nginx 安装信息brew info nginx# ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -400,7 +400,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    142
+                    141
                 </div>
                 
 
@@ -427,16 +427,11 @@
         
 
         
-        <!-- 代码块折行 -->
-        <style type="text/css">
-            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
-        </style>
-        
 
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>nginx</p>
-<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 nginx</span></span><br><span class="line">brew install nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">卸载 nginx</span></span><br><span class="line">brew uninstall nginx</span><br><span class="line">brew uninstall nginx@版本号</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看 nginx 安装信息</span></span><br><span class="line">brew info nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动、停止、重启nginx(推荐)</span></span><br><span class="line">brew services start nginx</span><br><span class="line">brew services stop nginx</span><br><span class="line">brew services restart nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nginx原生常用命令启动、停止、重新加载配置文件(不推荐)</span></span><br><span class="line">nginx #启动nginx</span><br><span class="line">nginx -s reload #重新加载配置文件 ，热加载配置文件</span><br><span class="line">nginx -s quit #:推荐 待nginx进程处理任务完毕进行停止</span><br><span class="line">nginx -s stop #:先查出nginx进程id再使用kill命令强制杀掉进程。</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询 nginx 进程</span></span><br><span class="line">ps aux|grep nginx</span><br><span class="line">ps -ef|grep nginx</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置 nginx</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 nginx</span></span><br><span class="line">brew install nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">卸载 nginx</span></span><br><span class="line">brew uninstall nginx</span><br><span class="line">brew uninstall nginx@版本号</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看 nginx 安装信息</span></span><br><span class="line">brew info nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动、停止、重启nginx(推荐)</span></span><br><span class="line">brew services start nginx</span><br><span class="line">brew services stop nginx</span><br><span class="line">brew services restart nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nginx原生常用命令启动、停止、重新加载配置文件(不推荐)</span></span><br><span class="line">nginx #启动nginx</span><br><span class="line">nginx -s reload #重新加载配置文件 ，热加载配置文件</span><br><span class="line">nginx -s quit #:推荐 待nginx进程处理任务完毕进行停止</span><br><span class="line">nginx -s stop #:先查出nginx进程id再使用kill命令强制杀掉进程。</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询 nginx 进程</span></span><br><span class="line">ps aux|grep nginx</span><br><span class="line">ps -ef|grep nginx</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置 nginx</span></span><br></pre></td></tr></tbody></table></figure>
 
                 
             </div>
@@ -758,8 +753,6 @@
 
 <!-- 代码语言 -->
 
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
 
 <!-- 代码块复制 -->
 
@@ -982,10 +975,6 @@
     </a>
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>

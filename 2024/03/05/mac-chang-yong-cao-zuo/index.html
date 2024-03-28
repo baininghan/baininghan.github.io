@@ -5,9 +5,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="mac常用操作, 程序员老白">
-    <meta name="description" content="mac电脑安装软件，提示已损坏12sudo spctl  --master-disablesudo xattr -r -d com.apple.quarantine /Applications/XXXX.app
+    <meta name="description" content="mac电脑安装软件，提示已损坏sudo spctl  --master-disablesudo xattr -r -d com.apple.quarantine /Applications/XXXX.app
 
-Myql启动命令1mysq">
+Myql启动命令mysql.s">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -428,25 +428,20 @@ Myql启动命令1mysq">
         
 
         
-        <!-- 代码块折行 -->
-        <style type="text/css">
-            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
-        </style>
-        
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="mac电脑安装软件，提示已损坏"><a href="#mac电脑安装软件，提示已损坏" class="headerlink" title="mac电脑安装软件，提示已损坏"></a>mac电脑安装软件，提示已损坏</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo spctl  --master-disable</span><br><span class="line">sudo xattr -r -d com.apple.quarantine /Applications/XXXX.app</span><br></pre></td></tr></tbody></table></figure>
+                <h3 id="mac电脑安装软件，提示已损坏"><a href="#mac电脑安装软件，提示已损坏" class="headerlink" title="mac电脑安装软件，提示已损坏"></a>mac电脑安装软件，提示已损坏</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">sudo spctl  --master-disable</span><br><span class="line">sudo xattr -r -d com.apple.quarantine /Applications/XXXX.app</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="Myql启动命令"><a href="#Myql启动命令" class="headerlink" title="Myql启动命令"></a>Myql启动命令</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql.server start</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="Myql启动命令"><a href="#Myql启动命令" class="headerlink" title="Myql启动命令"></a>Myql启动命令</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">mysql.server start</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务端</span></span><br><span class="line">redis-server</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">关闭服务端</span></span><br><span class="line">edis-cli SHUTDOWN</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，按照默认配置连接redis（127.0.0.1:6379）</span></span><br><span class="line">redis-cli</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，指定地址和端口号</span></span><br><span class="line">edis-cli -h 127.0.0.1 -p 6379</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 设置临时密码</span></span><br><span class="line">config set requirepass 密码</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 获取临时密码</span></span><br><span class="line">config get requirepass</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务端</span></span><br><span class="line">redis-server</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">关闭服务端</span></span><br><span class="line">edis-cli SHUTDOWN</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，按照默认配置连接redis（127.0.0.1:6379）</span></span><br><span class="line">redis-cli</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动客户端，指定地址和端口号</span></span><br><span class="line">edis-cli -h 127.0.0.1 -p 6379</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 设置临时密码</span></span><br><span class="line">config set requirepass 密码</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">redis 获取临时密码</span></span><br><span class="line">config get requirepass</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="npm相关"><a href="#npm相关" class="headerlink" title="npm相关"></a>npm相关</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 pnpm，提升依赖的安装速度</span></span><br><span class="line">npm config set registry https://registry.npmjs.org</span><br><span class="line">npm install -g pnpm</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装依赖</span></span><br><span class="line">pnpm install</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务</span></span><br><span class="line">npm run dev</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="npm相关"><a href="#npm相关" class="headerlink" title="npm相关"></a>npm相关</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 pnpm，提升依赖的安装速度</span></span><br><span class="line">npm config set registry https://registry.npmjs.org</span><br><span class="line">npm install -g pnpm</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装依赖</span></span><br><span class="line">pnpm install</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动服务</span></span><br><span class="line">npm run dev</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="svn"><a href="#svn" class="headerlink" title="svn"></a>svn</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">下载代码库</span></span><br><span class="line">svn checkout [repository URL] [local directory]</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">提交代码</span></span><br><span class="line">svn commit -m "commit message"</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新代码</span></span><br><span class="line">svn update</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看文件更改</span></span><br><span class="line">svn status</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">撤销更改</span></span><br><span class="line">svn revert [file name]</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="svn"><a href="#svn" class="headerlink" title="svn"></a>svn</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">下载代码库</span></span><br><span class="line">svn checkout [repository URL] [local directory]</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">提交代码</span></span><br><span class="line">svn commit -m "commit message"</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新代码</span></span><br><span class="line">svn update</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看文件更改</span></span><br><span class="line">svn status</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">撤销更改</span></span><br><span class="line">svn revert [file name]</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="nacos-启动"><a href="#nacos-启动" class="headerlink" title="nacos 启动"></a>nacos 启动</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sh startup.sh -m standalone</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">浏览器访问</span></span><br></pre></td></tr></tbody></table></figure>
+<h3 id="nacos-启动"><a href="#nacos-启动" class="headerlink" title="nacos 启动"></a>nacos 启动</h3><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">sh startup.sh -m standalone</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">浏览器访问</span></span><br></pre></td></tr></tbody></table></figure>
 
                 
             </div>
@@ -769,8 +764,6 @@ Myql启动命令1mysq">
 
 <!-- 代码语言 -->
 
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
 
 <!-- 代码块复制 -->
 
@@ -993,10 +986,6 @@ Myql启动命令1mysq">
     </a>
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
