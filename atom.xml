@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>程序员老白</title>
+  
+  <subtitle>程序员老白</subtitle>
+  <link href="http://baininghan.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://baininghan.github.io/"/>
+  <updated>2024-03-28T12:15:05.881Z</updated>
+  <id>http://baininghan.github.io/</id>
+  
+  <author>
+    <name>程序员老白</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024年科学上网</title>
+    <link href="http://baininghan.github.io/2024/03/28/2024-nian-ke-xue-shang-wang/"/>
+    <id>http://baininghan.github.io/2024/03/28/2024-nian-ke-xue-shang-wang/</id>
+    <published>2024-03-28T11:11:16.000Z</published>
+    <updated>2024-03-28T12:15:05.881Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近《三体》电视剧挺火的，除了国内的版本，国外网飞版也不错。怎么你还没看过，推荐你去看一看。怎么你说看不了？仔细看本片文章，我来教你。&lt;/p&gt;
+&lt;h3 id=&quot;第一步（注册账号）：&quot;&gt;&lt;a href=&quot;#第一步（注册账号）：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="科学上网" scheme="http://baininghan.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用在线接口</title>
+    <link href="http://baininghan.github.io/2024/03/27/chang-yong-zai-xian-jie-kou/"/>
+    <id>http://baininghan.github.io/2024/03/27/chang-yong-zai-xian-jie-kou/</id>
+    <published>2024-03-27T09:12:49.000Z</published>
+    <updated>2024-03-28T11:12:05.582Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一言&quot;&gt;&lt;a href=&quot;#一言&quot; class=&quot;headerlink&quot; title=&quot;一言&quot;&gt;&lt;/a&gt;一言&lt;/h3&gt;&lt;p&gt;用代码表达言语的魅力，用代码书写山河的壮丽。&lt;/p&gt;
+&lt;h4 id=&quot;文档地址&quot;&gt;&lt;a href=&quot;#文档地址&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="在线API" scheme="http://baininghan.github.io/tags/%E5%9C%A8%E7%BA%BFAPI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>brew常用命令</title>
+    <link href="http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/"/>
+    <id>http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/</id>
+    <published>2024-03-26T11:42:29.000Z</published>
+    <updated>2024-03-28T11:07:36.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Mac" scheme="http://baininghan.github.io/categories/Mac/"/>
+    
+    
+    <category term="Homebrew" scheme="http://baininghan.github.io/tags/Homebrew/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac常用快捷键</title>
+    <link href="http://baininghan.github.io/2024/03/26/mac-chang-yong-kuai-jie-jian/"/>
+    <id>http://baininghan.github.io/2024/03/26/mac-chang-yong-kuai-jie-jian/</id>
+    <published>2024-03-26T11:28:11.000Z</published>
+    <updated>2024-03-27T07:56:08.388Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;// 访达&lt;br&gt;Command + Shift + 3                // 截取全屏到桌面&lt;br&gt;Command + Shift + 4                // 截取所选区域到桌面&lt;br&gt;Command + Shift + N        </summary>
+        
+      
+    
+    
+    
+    <category term="Mac" scheme="http://baininghan.github.io/categories/Mac/"/>
+    
+    
+    <category term="Mac快捷键" scheme="http://baininghan.github.io/tags/Mac%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac安装nginx</title>
+    <link href="http://baininghan.github.io/2024/03/22/mac-an-zhuang-nginx/"/>
+    <id>http://baininghan.github.io/2024/03/22/mac-an-zhuang-nginx/</id>
+    <published>2024-03-22T12:34:11.000Z</published>
+    <updated>2024-03-26T12:09:46.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;nginx&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Nginx" scheme="http://baininghan.github.io/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序备案所需材料</title>
+    <link href="http://baininghan.github.io/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/"/>
+    <id>http://baininghan.github.io/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/</id>
+    <published>2024-03-21T08:34:11.000Z</published>
+    <updated>2024-03-27T07:56:46.067Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;主办人信息&quot;&gt;&lt;a href=&quot;#主办人信息&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="运营" scheme="http://baininghan.github.io/categories/%E8%BF%90%E8%90%A5/"/>
+    
+    
+    <category term="微信小程序备案" scheme="http://baininghan.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringCloud入门</title>
+    <link href="http://baininghan.github.io/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/"/>
+    <id>http://baininghan.github.io/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/</id>
+    <published>2024-03-05T08:34:11.000Z</published>
+    <updated>2024-03-26T12:10:58.749Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/ThinkWon/article/details/103715146&quot;&gt;Spring Cloud入门-十分钟了解Spring Cloud-CSDN博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;序号    内容   </summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Java" scheme="http://baininghan.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac常用操作</title>
+    <link href="http://baininghan.github.io/2024/03/05/mac-chang-yong-cao-zuo/"/>
+    <id>http://baininghan.github.io/2024/03/05/mac-chang-yong-cao-zuo/</id>
+    <published>2024-03-05T08:34:11.000Z</published>
+    <updated>2024-03-28T11:07:33.481Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;mac电脑安装软件，提示已损坏&quot;&gt;&lt;a href=&quot;#mac电脑安装软件，提示已损坏&quot; class=&quot;headerlink&quot; title=&quot;mac电脑安装软件，提示已损坏&quot;&gt;&lt;/a&gt;mac电脑安装软件，提示已损坏&lt;/h3&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="记录" scheme="http://baininghan.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>

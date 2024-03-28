@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="mac安装nginx, 程序员老白">
     <meta name="description" content="nginx
-# 安装 nginxbrew install nginx# 卸载 nginxbrew uninstall nginxbrew uninstall nginx@版本号# 查看 nginx 安装信息brew info nginx# ">
+1234567891011121314151617181920212223# 安装 nginxbrew install nginx# 卸载 nginxbrew uninstall nginxbrew uninstall ngin">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -55,6 +55,7 @@
 
 <meta name="generator" content="Hexo 7.1.1">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="程序员老白" type="application/atom+xml">
 </head>
 
 
@@ -400,7 +401,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    141
+                    142
                 </div>
                 
 
@@ -431,7 +432,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>nginx</p>
-<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 nginx</span></span><br><span class="line">brew install nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">卸载 nginx</span></span><br><span class="line">brew uninstall nginx</span><br><span class="line">brew uninstall nginx@版本号</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看 nginx 安装信息</span></span><br><span class="line">brew info nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动、停止、重启nginx(推荐)</span></span><br><span class="line">brew services start nginx</span><br><span class="line">brew services stop nginx</span><br><span class="line">brew services restart nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nginx原生常用命令启动、停止、重新加载配置文件(不推荐)</span></span><br><span class="line">nginx #启动nginx</span><br><span class="line">nginx -s reload #重新加载配置文件 ，热加载配置文件</span><br><span class="line">nginx -s quit #:推荐 待nginx进程处理任务完毕进行停止</span><br><span class="line">nginx -s stop #:先查出nginx进程id再使用kill命令强制杀掉进程。</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询 nginx 进程</span></span><br><span class="line">ps aux|grep nginx</span><br><span class="line">ps -ef|grep nginx</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置 nginx</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 nginx</span></span><br><span class="line">brew install nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">卸载 nginx</span></span><br><span class="line">brew uninstall nginx</span><br><span class="line">brew uninstall nginx@版本号</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看 nginx 安装信息</span></span><br><span class="line">brew info nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动、停止、重启nginx(推荐)</span></span><br><span class="line">brew services start nginx</span><br><span class="line">brew services stop nginx</span><br><span class="line">brew services restart nginx</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nginx原生常用命令启动、停止、重新加载配置文件(不推荐)</span></span><br><span class="line">nginx #启动nginx</span><br><span class="line">nginx -s reload #重新加载配置文件 ，热加载配置文件</span><br><span class="line">nginx -s quit #:推荐 待nginx进程处理任务完毕进行停止</span><br><span class="line">nginx -s stop #:先查出nginx进程id再使用kill命令强制杀掉进程。</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查询 nginx 进程</span></span><br><span class="line">ps aux|grep nginx</span><br><span class="line">ps -ef|grep nginx</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置 nginx</span></span><br></pre></td></tr></tbody></table></figure>
 
                 
             </div>
@@ -554,33 +555,6 @@
             
         </div>
     </div>
-
-    
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
-        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
-        <span>评论</span>
-    </div>
-    <div id="gitalk-container" class="card-content"></div>
-</div>
-
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: 'e7d063f783ed46901609',
-        clientSecret: 'b108a32a080c5cb7a4044adfaf7cda1044c9ad87',
-        repo: 'gitalk-comments',
-        owner: 'baininghan',
-        admin: "baininghan",
-        id: '2024-03-22T20-34-11',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
 
     
 
@@ -922,7 +896,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.4k</span>
+                        class="white-color">3.1k</span>
             
             
             
