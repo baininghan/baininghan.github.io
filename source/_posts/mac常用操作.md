@@ -8,7 +8,9 @@ categories: "技术"
 ### mac电脑安装软件，提示已损坏
 
 ```shell
+# 打开 允许任何来源安装软件
 sudo spctl  --master-disable
+# 将安装文件移动到/Applications目录，并执行以下语句
 sudo xattr -r -d com.apple.quarantine /Applications/XXXX.app
 ```
 

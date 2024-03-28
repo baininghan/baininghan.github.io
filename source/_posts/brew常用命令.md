@@ -5,25 +5,37 @@ tags: "Homebrew"
 categories: "Mac"
 ---
 
+```bash
 // 1、安装任意包，例如 brew install node
-    brew install appName
+ brew install appName
+
 // 2、卸载任意包，例如 brew uninstall git
-    brew uninstall appName
+ brew uninstall appName
+
 // 3、查询可用包
-    brew search appName[当不知道具体名字时-这里可直接用关键字搜索]
+ brew search appName[当不知道具体名字时-这里可直接用关键字搜索]
+
 // 4、查看任意包信息
-    brew info appName
+ brew info appName
+
 // 5、更新Homebrew
-    brew update
+ brew update
+
 // 6、查看Homebrew版本
-    brew -v
+ brew -v
+
 // 7、Homebrew帮助信息
-    brew -h
+ brew -h
+
 // 8、列出已安装的软件
-    brew list  或者  brew ls  
+ brew list 或者 brew ls  
+
 // 9、用浏览器打开brew的官方网站
-    brew home       
+ brew home  
+
 // 10、显示包依赖
-    brew deps      
+ brew deps  
+
 // 11、升级到最新版本
-    brew upgrade
+ brew upgrade
+```

@@ -49,7 +49,7 @@ future: true
 syntax_highlighter: highlight.js
 highlight:
   enable: false
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -118,6 +118,16 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-matery
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
