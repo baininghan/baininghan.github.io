@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>demo_typescript</title>
+      <link href="/2024/04/08/demo-typescript/"/>
+      <url>/2024/04/08/demo-typescript/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight typescript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Last</span> <span class="attr">login</span>: <span class="title class_">Mon</span> <span class="title class_">Apr</span>  <span class="number">8</span> <span class="number">15</span>:<span class="number">24</span>:<span class="number">31</span> on ttys002</span><br><span class="line">&gt; cd <span class="title class_">Code</span>/demo</span><br><span class="line">&gt; mkdir demo_typescript</span><br><span class="line">&gt; cd demo_typescript</span><br><span class="line">&gt; npm install typescript --save</span><br><span class="line"></span><br><span class="line">added <span class="number">1</span> package <span class="keyword">in</span> 2s</span><br><span class="line">&gt; pwd</span><br><span class="line">/<span class="title class_">Users</span>/baininghan/<span class="title class_">Code</span>/demo/demo_typescript</span><br><span class="line">&gt; vi tsc1.<span class="property">ts</span></span><br><span class="line">&gt; tsc *.<span class="property">ts</span></span><br><span class="line">&gt; ls</span><br><span class="line">node_modules      package.<span class="property">json</span>      tsc1.<span class="property">ts</span></span><br><span class="line">package-lock.<span class="property">json</span> tsc1.<span class="property">js</span></span><br><span class="line">&gt; node tsc1.<span class="property">js</span></span><br><span class="line"><span class="title class_">Hi</span> <span class="title class_">Typescript</span></span><br><span class="line"> ~<span class="regexp">/C/</span>d/demo_typescript       </span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> typescript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2024年科学上网</title>
       <link href="/2024/03/28/2024-nian-ke-xue-shang-wang/"/>
       <url>/2024/03/28/2024-nian-ke-xue-shang-wang/</url>

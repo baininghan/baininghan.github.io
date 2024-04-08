@@ -6,7 +6,7 @@
   <link href="http://baininghan.github.io/atom.xml" rel="self"/>
   
   <link href="http://baininghan.github.io/"/>
-  <updated>2024-03-28T12:28:56.241Z</updated>
+  <updated>2024-04-08T08:40:11.243Z</updated>
   <id>http://baininghan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>demo_typescript</title>
+    <link href="http://baininghan.github.io/2024/04/08/demo-typescript/"/>
+    <id>http://baininghan.github.io/2024/04/08/demo-typescript/</id>
+    <published>2024-04-08T08:38:46.000Z</published>
+    <updated>2024-04-08T08:40:11.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight typescript&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://baininghan.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="typescript" scheme="http://baininghan.github.io/tags/typescript/"/>
+    
+  </entry>
   
   <entry>
     <title>2024年科学上网</title>
