@@ -6,7 +6,7 @@
   <link href="http://baininghan.github.io/atom.xml" rel="self"/>
   
   <link href="http://baininghan.github.io/"/>
-  <updated>2024-04-08T08:40:11.243Z</updated>
+  <updated>2024-04-09T13:48:19.919Z</updated>
   <id>http://baininghan.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>承接小程序开发</title>
+    <link href="http://baininghan.github.io/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/"/>
+    <id>http://baininghan.github.io/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/</id>
+    <published>2024-04-09T13:47:52.000Z</published>
+    <updated>2024-04-09T13:48:19.919Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>demo_typescript</title>
