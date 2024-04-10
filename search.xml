@@ -8,21 +8,9 @@
       <link href="/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/"/>
       <url>/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/</url>
       
-        <content type="html"><![CDATA[<p>承接微信小程序开发，有需要的联系我。</p><p>邮箱：<a href="mailto:lvsedehuanxiang@163.com">lvsedehuanxiang@163.com</a></p><p>微信：fancye_bai</p><p>添加微信请注明来意，将详细需求以邮件的方式发送给我。</p>]]></content>
+        <content type="html"><![CDATA[<p>承接微信小程序开发，有需要的联系我。</p><ul><li><p>邮箱：<a href="mailto:lvsedehuanxiang@163.com">lvsedehuanxiang@163.com</a></p></li><li><p>微信：fancye_bai</p></li></ul><p>添加微信请注明来意，将详细需求以邮件的方式发送给我。</p>]]></content>
       
       
-      <categories>
-          
-          <category> Money </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Money </tag>
-            
-        </tags>
       
     </entry>
     
@@ -33,7 +21,7 @@
       <link href="/2024/04/08/demo-typescript/"/>
       <url>/2024/04/08/demo-typescript/</url>
       
-        <content type="html"><![CDATA[<figure class="highlight typescript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Last</span> <span class="attr">login</span>: <span class="title class_">Mon</span> <span class="title class_">Apr</span>  <span class="number">8</span> <span class="number">15</span>:<span class="number">24</span>:<span class="number">31</span> on ttys002</span><br><span class="line">&gt; cd <span class="title class_">Code</span>/demo</span><br><span class="line">&gt; mkdir demo_typescript</span><br><span class="line">&gt; cd demo_typescript</span><br><span class="line">&gt; npm install typescript --save</span><br><span class="line"></span><br><span class="line">added <span class="number">1</span> package <span class="keyword">in</span> 2s</span><br><span class="line">&gt; pwd</span><br><span class="line">/<span class="title class_">Users</span>/baininghan/<span class="title class_">Code</span>/demo/demo_typescript</span><br><span class="line">&gt; vi tsc1.<span class="property">ts</span></span><br><span class="line">&gt; tsc *.<span class="property">ts</span></span><br><span class="line">&gt; ls</span><br><span class="line">node_modules      package.<span class="property">json</span>      tsc1.<span class="property">ts</span></span><br><span class="line">package-lock.<span class="property">json</span> tsc1.<span class="property">js</span></span><br><span class="line">&gt; node tsc1.<span class="property">js</span></span><br><span class="line"><span class="title class_">Hi</span> <span class="title class_">Typescript</span></span><br><span class="line"> ~<span class="regexp">/C/</span>d/demo_typescript       </span><br></pre></td></tr></tbody></table></figure>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight sh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">Last login: Mon Apr  8 15:24:31 on ttys002</span><br><span class="line">&gt; <span class="built_in">cd</span> Code/demo</span><br><span class="line">&gt; <span class="built_in">mkdir</span> demo_typescript</span><br><span class="line">&gt; <span class="built_in">cd</span> demo_typescript</span><br><span class="line">&gt; npm install typescript --save</span><br><span class="line"></span><br><span class="line">added 1 package <span class="keyword">in</span> 2s</span><br><span class="line">&gt; <span class="built_in">pwd</span></span><br><span class="line">/Users/baininghan/Code/demo/demo_typescript</span><br><span class="line">&gt; vi tsc1.ts</span><br><span class="line">&gt; tsc *.ts</span><br><span class="line">&gt; <span class="built_in">ls</span></span><br><span class="line">node_modules      package.json      tsc1.ts</span><br><span class="line">package-lock.json tsc1.js</span><br><span class="line">&gt; node tsc1.js</span><br><span class="line">Hi Typescript</span><br><span class="line"> ~/C/d/demo_typescript       </span><br></pre></td></tr></tbody></table></figure>]]></content>
       
       
       <categories>
