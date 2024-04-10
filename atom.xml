@@ -6,7 +6,7 @@
   <link href="http://baininghan.github.io/atom.xml" rel="self"/>
   
   <link href="http://baininghan.github.io/"/>
-  <updated>2024-04-10T02:07:27.618Z</updated>
+  <updated>2024-04-10T06:38:37.278Z</updated>
   <id>http://baininghan.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nrm使用</title>
+    <link href="http://baininghan.github.io/2024/04/10/nrm-shi-yong/"/>
+    <id>http://baininghan.github.io/2024/04/10/nrm-shi-yong/</id>
+    <published>2024-04-10T05:49:08.000Z</published>
+    <updated>2024-04-10T06:38:37.278Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;nrm用于在开发阶段，管理npm的镜像源。&lt;/p&gt;
+&lt;p&gt;常用命令如下&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="npm" scheme="http://baininghan.github.io/categories/npm/"/>
+    
+    
+    <category term="nrm" scheme="http://baininghan.github.io/tags/nrm/"/>
+    
+  </entry>
   
   <entry>
     <title>承接小程序开发</title>

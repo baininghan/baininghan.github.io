@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>nrm使用</title>
+      <link href="/2024/04/10/nrm-shi-yong/"/>
+      <url>/2024/04/10/nrm-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<p>nrm用于在开发阶段，管理npm的镜像源。</p><p>常用命令如下</p><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看镜像列表</span></span><br><span class="line">nrm ls</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看当前使用镜像</span></span><br><span class="line">nrm current</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加镜像</span></span><br><span class="line">nrm add &lt;名称&gt; &lt;远程地址或私服地址&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">删除镜像</span></span><br><span class="line">nrm del &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">切换镜像</span></span><br><span class="line">nrm use &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">测试镜像网络传输速度</span></span><br><span class="line">nrm test &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看nrm版本号</span></span><br><span class="line">nrm &lt;–version | -V&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看nrm的相关信息</span></span><br><span class="line">nrm &lt;–help | -h&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">打开镜像的主页</span></span><br><span class="line">nrm home &lt; 名称&gt; [browser]</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">上传npm包或命令程序</span></span><br><span class="line">nrm publish [&lt; tarball&gt;|&lt; folder&gt;]</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> npm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nrm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>承接小程序开发</title>
       <link href="/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/"/>
       <url>/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/</url>

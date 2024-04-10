@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="brew常用命令, 程序员老白">
-    <meta name="description" content="1234567891011121314151617181920212223242526272829303132// 1、安装任意包，例如 brew install node brew install appName// 2、卸载任意包，例如">
+    <meta name="keywords" content="nrm使用, 程序员老白">
+    <meta name="description" content="nrm用于在开发阶段，管理npm的镜像源。
+常用命令如下
+1234567891011121314151617181920# 查看镜像列表nrm ls# 查看当前使用镜像nrm current# 添加镜像nrm add &amp;lt;名称&amp;gt; ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>brew常用命令 | 程序员老白</title>
+    <title>nrm使用 | 程序员老白</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/favicon.png">
     
 
@@ -287,12 +289,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">brew常用命令</h1>
+                    <h1 class="description center-align post-title">nrm使用</h1>
                 </div>
             </div>
         </div>
@@ -316,8 +318,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Homebrew/">
-                                <span class="chip bg-color">Homebrew</span>
+                            <a href="/tags/nrm/">
+                                <span class="chip bg-color">nrm</span>
                             </a>
                         
                     </div>
@@ -328,8 +330,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Mac/" class="post-category">
-                                Mac
+                            <a href="/categories/npm/" class="post-category">
+                                npm
                             </a>
                         
                     </div>
@@ -341,7 +343,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-03-26
+                    2024-04-10
                 </div>
                 
 
@@ -350,7 +352,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    139
+                    149
                 </div>
                 
 
@@ -380,7 +382,9 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">// 1、安装任意包，例如 brew install node</span><br><span class="line"> brew install appName</span><br><span class="line"></span><br><span class="line">// 2、卸载任意包，例如 brew uninstall git</span><br><span class="line"> brew uninstall appName</span><br><span class="line"></span><br><span class="line">// 3、查询可用包</span><br><span class="line"> brew search appName[当不知道具体名字时-这里可直接用关键字搜索]</span><br><span class="line"></span><br><span class="line">// 4、查看任意包信息</span><br><span class="line"> brew info appName</span><br><span class="line"></span><br><span class="line">// 5、更新Homebrew</span><br><span class="line"> brew update</span><br><span class="line"></span><br><span class="line">// 6、查看Homebrew版本</span><br><span class="line"> brew -v</span><br><span class="line"></span><br><span class="line">// 7、Homebrew帮助信息</span><br><span class="line"> brew -h</span><br><span class="line"></span><br><span class="line">// 8、列出已安装的软件</span><br><span class="line"> brew list 或者 brew <span class="built_in">ls</span>  </span><br><span class="line"></span><br><span class="line">// 9、用浏览器打开brew的官方网站</span><br><span class="line"> brew home  </span><br><span class="line"></span><br><span class="line">// 10、显示包依赖</span><br><span class="line"> brew deps  </span><br><span class="line"></span><br><span class="line">// 11、升级到最新版本</span><br><span class="line"> brew upgrade</span><br></pre></td></tr></tbody></table></figure>
+                <p>nrm用于在开发阶段，管理npm的镜像源。</p>
+<p>常用命令如下</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看镜像列表</span></span><br><span class="line">nrm ls</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看当前使用镜像</span></span><br><span class="line">nrm current</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加镜像</span></span><br><span class="line">nrm add &lt;名称&gt; &lt;远程地址或私服地址&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">删除镜像</span></span><br><span class="line">nrm del &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">切换镜像</span></span><br><span class="line">nrm use &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">测试镜像网络传输速度</span></span><br><span class="line">nrm test &lt;名称&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看nrm版本号</span></span><br><span class="line">nrm &lt;–version | -V&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看nrm的相关信息</span></span><br><span class="line">nrm &lt;–help | -h&gt;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">打开镜像的主页</span></span><br><span class="line">nrm home &lt; 名称&gt; [browser]</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">上传npm包或命令程序</span></span><br><span class="line">nrm publish [&lt; tarball&gt;|&lt; folder&gt;]</span><br></pre></td></tr></tbody></table></figure>
 
                 
             </div>
@@ -407,7 +411,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/">http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/</a>
+                    <a href="http://baininghan.github.io/2024/04/10/nrm-shi-yong/">http://baininghan.github.io/2024/04/10/nrm-shi-yong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -445,8 +449,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Homebrew/">
-                                    <span class="chip bg-color">Homebrew</span>
+                                <a href="/tags/nrm/">
+                                    <span class="chip bg-color">nrm</span>
                                 </a>
                             
                         </div>
@@ -525,17 +529,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2024/03/27/chang-yong-zai-xian-jie-kou/">
+                <a href="/2024/04/10/nrm-shi-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="常用在线接口">
+                        <img src="https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/18.jpg" class="responsive-img" alt="nrm使用">
                         
-                        <span class="card-title">常用在线接口</span>
+                        <span class="card-title">nrm使用</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -545,26 +550,27 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-03-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-10
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/npm/" class="post-category">
+                                    npm
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%9C%A8%E7%BA%BFAPI/">
-                        <span class="chip bg-color">在线API</span>
+                    <a href="/tags/nrm/">
+                        <span class="chip bg-color">nrm</span>
                     </a>
                     
                 </div>
@@ -578,13 +584,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/03/26/mac-chang-yong-kuai-jie-jian/">
+                <a href="/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="Mac常用快捷键">
+                        <img src="https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io/medias/featureimages/10.jpg" class="responsive-img" alt="承接小程序开发">
                         
-                        <span class="card-title">Mac常用快捷键</span>
+                        <span class="card-title">承接小程序开发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -595,27 +601,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-09
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Mac/" class="post-category">
-                                    Mac
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            程序员老白
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Mac%E5%BF%AB%E6%8D%B7%E9%94%AE/">
-                        <span class="chip bg-color">Mac快捷键</span>
-                    </a>
-                    
                 </div>
                 
             </div>
