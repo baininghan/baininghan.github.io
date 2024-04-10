@@ -1,11 +1,11 @@
 ---
 title: demo_typescript
 date: 2024-04-08 16:38:46
-tags: typescript
-categories: 前端
+tags: "typescript"
+categories: "前端"
 ---
 
-```typescript
+```sh
 Last login: Mon Apr  8 15:24:31 on ttys002
 > cd Code/demo
 > mkdir demo_typescript
