@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="常用在线接口, 程序员老白">
     <meta name="description" content="一言用代码表达言语的魅力，用代码书写山河的壮丽。
-文档地址1https://developer.hitokoto.cn/sentence
+文档地址https://developer.hitokoto.cn/sentence
 
 请求地址
 
@@ -21,7 +21,7 @@ QPS 限制
 
 v1.hitokoto.cn
 HTTPS
-">
+A">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -397,7 +397,7 @@ HTTPS
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h3 id="一言"><a href="#一言" class="headerlink" title="一言"></a>一言</h3><p>用代码表达言语的魅力，用代码书写山河的壮丽。</p>
-<h4 id="文档地址"><a href="#文档地址" class="headerlink" title="文档地址"></a>文档地址</h4><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://developer.hitokoto.cn/sentence</span><br></pre></td></tr></tbody></table></figure>
+<h4 id="文档地址"><a href="#文档地址" class="headerlink" title="文档地址"></a>文档地址</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://developer.hitokoto.cn/sentence</span><br></pre></td></tr></tbody></table></figure>
 
 <h4 id="请求地址"><a href="#请求地址" class="headerlink" title="请求地址"></a>请求地址</h4><table>
 <thead>
@@ -583,13 +583,13 @@ HTTPS
 </tbody></table>
 <h3 id="壁纸接口"><a href="#壁纸接口" class="headerlink" title="壁纸接口"></a>壁纸接口</h3><p>支持输出必应壁纸与360壁纸，其中必应壁纸为当天壁纸而360则随机输出一张，具体参数及调用如下。</p>
 <h4 id="必应壁纸"><a href="#必应壁纸" class="headerlink" title="必应壁纸"></a>必应壁纸</h4><p>如果你要在PC端调用，图片分辨率为&nbsp;<strong>1920x1080</strong>，可使用如下接口</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=pc</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=pc</span><br></pre></td></tr></tbody></table></figure>
 
 <p>如果你需要调用分辨率为&nbsp;<strong>3840x2160</strong>&nbsp;的&nbsp;<strong>4K</strong>&nbsp;高清图片，可使用如下接口</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=uhd</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=uhd</span><br></pre></td></tr></tbody></table></figure>
 
 <p>如果你要在手机端调用，图片分辨率为&nbsp;<strong>1080x1920</strong>，可使用如下接口</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=m</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=bing&amp;ua=m</span><br></pre></td></tr></tbody></table></figure>
 
 <p>其中，参数&nbsp;<strong>ua</strong>&nbsp;用于指定PC还是移动端调用，若不填或填写错误，默认输出分辨率为1920x1080的图片。</p>
 <h4 id="360壁纸"><a href="#360壁纸" class="headerlink" title="360壁纸"></a>360壁纸</h4><p>360壁纸共支持15个类别的图片调用，无论哪个分类都是随机输出指定分类下的一张图片，分类参数与分类名对应关系如下表。</p>
@@ -678,7 +678,7 @@ HTTPS
 </tr>
 </tbody></table>
 <p>调用接口，其中参数&nbsp;<strong>type</strong>&nbsp;为分类参数，不填写分类参数或参数错误，统一随机输出一张<strong>4k专区</strong>图片。</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=360&amp;type=0</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">https://www.yumus.cn/api/?target=img&amp;brand=360&amp;type=0</span><br></pre></td></tr></tbody></table></figure>
 
 <p>接口只支持直接输出图片链接，不支持&nbsp;<strong>json</strong>&nbsp;类型数据，且服务器仅对中国大陆网络访问良好，虽做了海外解析（走 Cloudflare 回退源）但港澳台及海外能不能良好调用依旧要看命。</p>
 
