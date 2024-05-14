@@ -23,6 +23,9 @@ menu:
   #Contact:
   #  url: /contact
   #  icon: fas fa-comments
+  软件:
+    url: /soft
+    icon: fas fa-tools
   Friends:
     url: /friends
     icon: fas fa-address-book
