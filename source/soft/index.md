@@ -11,3 +11,5 @@ layout: "soft"
 ---
 
 [Sublime Text](https://pan.baidu.com/s/1f82p0Ky49U8t-smNBXfYLA)
+
+[nacos-server-2.3.2](https://pan.baidu.com/s/17QY1NzqCuvGrelsCZ19iIA)
