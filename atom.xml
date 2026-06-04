@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>程序员老白</title>
   
-  <subtitle>程序员老白</subtitle>
+  <subtitle>企业数字化产品设计 · 系统架构 · PMP方法论实践</subtitle>
   <link href="http://baininghan.github.io/atom.xml" rel="self"/>
   
   <link href="http://baininghan.github.io/"/>
-  <updated>2024-04-10T06:38:37.278Z</updated>
+  <updated>2026-06-04T03:07:53.755Z</updated>
   <id>http://baininghan.github.io/</id>
   
   <author>
@@ -17,11 +17,109 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>基于 PMP 的项目实施方法论（完整版）</title>
+    <link href="http://baininghan.github.io/posts/pmp.html"/>
+    <id>http://baininghan.github.io/posts/pmp.html</id>
+    <published>2026-06-04T02:30:00.000Z</published>
+    <updated>2026-06-04T03:07:53.755Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;版本&lt;/strong&gt;：V1.0 | &lt;strong&gt;日期&lt;/strong&gt;：2026-06-03 | &lt;strong&gt;适用&lt;/strong&gt;：IT 系统开发与交付项目&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="项目管理" scheme="http://baininghan.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="PMP" scheme="http://baininghan.github.io/tags/PMP/"/>
+    
+    <category term="项目管理" scheme="http://baininghan.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="方法论" scheme="http://baininghan.github.io/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    
+    <category term="PMBOK" scheme="http://baininghan.github.io/tags/PMBOK/"/>
+    
+    <category term="IT项目" scheme="http://baininghan.github.io/tags/IT%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PMP方法论在央国企工程项目的裁剪实践——复出第一弹</title>
+    <link href="http://baininghan.github.io/posts/c6baed34.html"/>
+    <id>http://baininghan.github.io/posts/c6baed34.html</id>
+    <published>2026-06-04T02:00:00.000Z</published>
+    <updated>2026-06-04T02:58:26.045Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：博客停更两年，并不是没在写，而是产出都在内网。这两年我的主战场从「写代码」转向「设计企业级数字化平台 + 推动方法论落地」，期间反复打磨的核心命题就是——&lt;strong&gt;PMP</summary>
+        
+      
+    
+    
+    
+    <category term="项目管理" scheme="http://baininghan.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="PMP" scheme="http://baininghan.github.io/tags/PMP/"/>
+    
+    <category term="项目管理" scheme="http://baininghan.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="央国企" scheme="http://baininghan.github.io/tags/%E5%A4%AE%E5%9B%BD%E4%BC%81/"/>
+    
+    <category term="工程项目" scheme="http://baininghan.github.io/tags/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="方法论" scheme="http://baininghan.github.io/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC安装mysql</title>
+    <link href="http://baininghan.github.io/posts/1012cdbb.html"/>
+    <id>http://baininghan.github.io/posts/1012cdbb.html</id>
+    <published>2024-11-21T06:24:23.000Z</published>
+    <updated>2026-06-04T02:58:26.044Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在mac电脑使用brew安装mysql。&lt;/p&gt;
+&lt;p&gt;先查找可以安装的mysql版本。&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="科学上网" scheme="http://baininghan.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>nrm使用</title>
-    <link href="http://baininghan.github.io/2024/04/10/nrm-shi-yong/"/>
-    <id>http://baininghan.github.io/2024/04/10/nrm-shi-yong/</id>
+    <link href="http://baininghan.github.io/posts/37a29c4c.html"/>
+    <id>http://baininghan.github.io/posts/37a29c4c.html</id>
     <published>2024-04-10T05:49:08.000Z</published>
-    <updated>2024-04-10T06:38:37.278Z</updated>
+    <updated>2026-06-04T02:58:26.049Z</updated>
     
     
       
@@ -45,33 +143,40 @@
   
   <entry>
     <title>承接小程序开发</title>
-    <link href="http://baininghan.github.io/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/"/>
-    <id>http://baininghan.github.io/2024/04/09/cheng-jie-xiao-cheng-xu-kai-fa/</id>
+    <link href="http://baininghan.github.io/posts/4e8a1ac3.html"/>
+    <id>http://baininghan.github.io/posts/4e8a1ac3.html</id>
     <published>2024-04-09T13:47:52.000Z</published>
-    <updated>2024-04-10T02:07:27.618Z</updated>
+    <updated>2026-06-04T01:55:00.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;承接微信小程序开发，有需要的联系我。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;邮箱：&lt;a</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;长期承接 &lt;strong&gt;微信小程序定制开发&lt;/strong&gt;，团队由资深产品设计师 +</summary>
         
       
     
     
     
+    <category term="服务" scheme="http://baininghan.github.io/categories/%E6%9C%8D%E5%8A%A1/"/>
+    
+    
+    <category term="微信小程序" scheme="http://baininghan.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="定制开发" scheme="http://baininghan.github.io/tags/%E5%AE%9A%E5%88%B6%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="项目合作" scheme="http://baininghan.github.io/tags/%E9%A1%B9%E7%9B%AE%E5%90%88%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>demo_typescript</title>
-    <link href="http://baininghan.github.io/2024/04/08/demo-typescript/"/>
-    <id>http://baininghan.github.io/2024/04/08/demo-typescript/</id>
+    <link href="http://baininghan.github.io/posts/948f26bf.html"/>
+    <id>http://baininghan.github.io/posts/948f26bf.html</id>
     <published>2024-04-08T08:38:46.000Z</published>
-    <updated>2024-04-10T02:08:57.221Z</updated>
+    <updated>2026-06-04T02:58:26.047Z</updated>
     
     
       
@@ -92,37 +197,11 @@
   </entry>
   
   <entry>
-    <title>2024年科学上网</title>
-    <link href="http://baininghan.github.io/2024/03/28/2024-nian-ke-xue-shang-wang/"/>
-    <id>http://baininghan.github.io/2024/03/28/2024-nian-ke-xue-shang-wang/</id>
-    <published>2024-03-28T11:11:16.000Z</published>
-    <updated>2024-03-28T12:28:56.241Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近《三体》电视剧挺火的，除了国内的版本，国外网飞版也不错。怎么你还没看过，推荐你去看一看。怎么你说看不了？仔细看本片文章，我来教你。&lt;/p&gt;
-&lt;h3 id=&quot;第一步（注册账号）：&quot;&gt;&lt;a href=&quot;#第一步（注册账号）：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="科学上网" scheme="http://baininghan.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>常用在线接口</title>
-    <link href="http://baininghan.github.io/2024/03/27/chang-yong-zai-xian-jie-kou/"/>
-    <id>http://baininghan.github.io/2024/03/27/chang-yong-zai-xian-jie-kou/</id>
+    <link href="http://baininghan.github.io/posts/cd60fc06.html"/>
+    <id>http://baininghan.github.io/posts/cd60fc06.html</id>
     <published>2024-03-27T09:12:49.000Z</published>
-    <updated>2024-03-28T11:12:05.582Z</updated>
+    <updated>2026-06-04T02:58:26.049Z</updated>
     
     
       
@@ -145,10 +224,10 @@
   
   <entry>
     <title>brew常用命令</title>
-    <link href="http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/"/>
-    <id>http://baininghan.github.io/2024/03/26/brew-chang-yong-ming-ling/</id>
+    <link href="http://baininghan.github.io/posts/276982ef.html"/>
+    <id>http://baininghan.github.io/posts/276982ef.html</id>
     <published>2024-03-26T11:42:29.000Z</published>
-    <updated>2024-03-28T11:07:36.197Z</updated>
+    <updated>2026-06-04T02:58:26.047Z</updated>
     
     
       
@@ -170,10 +249,10 @@
   
   <entry>
     <title>Mac常用快捷键</title>
-    <link href="http://baininghan.github.io/2024/03/26/mac-chang-yong-kuai-jie-jian/"/>
-    <id>http://baininghan.github.io/2024/03/26/mac-chang-yong-kuai-jie-jian/</id>
+    <link href="http://baininghan.github.io/posts/4d0c05f6.html"/>
+    <id>http://baininghan.github.io/posts/4d0c05f6.html</id>
     <published>2024-03-26T11:28:11.000Z</published>
-    <updated>2024-03-27T07:56:08.388Z</updated>
+    <updated>2026-06-04T02:58:26.046Z</updated>
     
     
       
@@ -195,10 +274,10 @@
   
   <entry>
     <title>mac安装nginx</title>
-    <link href="http://baininghan.github.io/2024/03/22/mac-an-zhuang-nginx/"/>
-    <id>http://baininghan.github.io/2024/03/22/mac-an-zhuang-nginx/</id>
+    <link href="http://baininghan.github.io/posts/476e8357.html"/>
+    <id>http://baininghan.github.io/posts/476e8357.html</id>
     <published>2024-03-22T12:34:11.000Z</published>
-    <updated>2024-03-26T12:09:46.977Z</updated>
+    <updated>2026-06-04T02:58:26.048Z</updated>
     
     
       
@@ -221,10 +300,10 @@
   
   <entry>
     <title>微信小程序备案所需材料</title>
-    <link href="http://baininghan.github.io/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/"/>
-    <id>http://baininghan.github.io/2024/03/21/wei-xin-xiao-cheng-xu-bei-an-suo-xu-cai-liao/</id>
+    <link href="http://baininghan.github.io/posts/ca615377.html"/>
+    <id>http://baininghan.github.io/posts/ca615377.html</id>
     <published>2024-03-21T08:34:11.000Z</published>
-    <updated>2024-03-27T07:56:46.067Z</updated>
+    <updated>2026-06-04T02:58:26.050Z</updated>
     
     
       
@@ -246,10 +325,10 @@
   
   <entry>
     <title>SpringCloud入门</title>
-    <link href="http://baininghan.github.io/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/"/>
-    <id>http://baininghan.github.io/2024/03/05/springcloud-ru-men-xi-lie-hui-zong/</id>
+    <link href="http://baininghan.github.io/posts/b26c0f3f.html"/>
+    <id>http://baininghan.github.io/posts/b26c0f3f.html</id>
     <published>2024-03-05T08:34:11.000Z</published>
-    <updated>2024-03-26T12:10:58.749Z</updated>
+    <updated>2026-06-04T02:58:26.046Z</updated>
     
     
       
@@ -272,10 +351,10 @@
   
   <entry>
     <title>mac常用操作</title>
-    <link href="http://baininghan.github.io/2024/03/05/mac-chang-yong-cao-zuo/"/>
-    <id>http://baininghan.github.io/2024/03/05/mac-chang-yong-cao-zuo/</id>
+    <link href="http://baininghan.github.io/posts/ad3fbb4b.html"/>
+    <id>http://baininghan.github.io/posts/ad3fbb4b.html</id>
     <published>2024-03-05T08:34:11.000Z</published>
-    <updated>2024-03-28T11:07:33.481Z</updated>
+    <updated>2026-06-04T02:58:26.048Z</updated>
     
     
       
