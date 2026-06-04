@@ -22,7 +22,7 @@ configRoot = (configRoot === null || configRoot === undefined || configRoot === 
         <% Object.keys(theme.menu).forEach(function(key) { %>
         <li class="m-nav-item">
 	  <% if(!theme.menu[key].children) { %>
-		<a href="<%- url_for(theme.menu[key].url) %>" class="waves-effect waves-light">
+		<a href="<%- /^https?:\/\//.test(theme.menu[key].url) ? theme.menu[key].url : url_for(theme.menu[key].url) %>"<% var _t = theme.menu[key].target || (/^https?:\/\//.test(theme.menu[key].url) ? '_blank' : ''); if (_t) { %> target="<%- _t %>" rel="noopener"<% } %> class="waves-effect waves-light">
 			<% if (theme.menu[key].icon && theme.menu[key].icon.length > 0) { %>
 			    <i class="fa-fw <%- theme.menu[key].icon %>"></i>
 			<% } else { %>
