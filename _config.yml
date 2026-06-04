@@ -4,9 +4,9 @@
 
 # Site
 title: 程序员老白
-subtitle: '程序员老白'
-description: '项目管理,PMP,ACP,Java,Vue,前端'
-keywords:
+subtitle: '企业数字化产品设计 · 系统架构 · PMP方法论实践'
+description: '聚焦企业级数字化项目设计与项目管理方法论落地，分享PMP/ACP实践、系统架构、全栈技术与产品工程经验。'
+keywords: 项目管理,PMP,ACP,产品设计,系统架构,Java,Vue,前端,微信小程序,数字化转型
 author: 程序员老白
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://baininghan.github.io
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -56,7 +56,7 @@ highlight:
   hljs: false
 prismjs:
   enable: true
-  preprocess: true
+  preprocess: false   # 关掉服务端预处理，让 hexo-filter-mermaid-diagrams 先处理 ```mermaid 代码块
   line_number: false
   tab_replace: ''
 
@@ -134,14 +134,27 @@ feed:
 deploy:
 - type: git
   repo: git@github.com:baininghan/baininghan.github.io.git
-  branch: main
+  branch: gh-pages
 - type: git
   repo: git@gitee.com:baininghan/baininghan.gitee.io.git
-  branch: master
+  branch: gh-pages
 
 ## git-backup
 backup:
   type: git
   repository:
-    github: git@github.com:baininghan/baininghan.github.io.git,gh-pages
-    gitee: git@gitee.com:baininghan/baininghan.gitee.io.git,gh-pages
+    github: git@github.com:baininghan/baininghan.github.io.git,main
+    gitee: git@gitee.com:baininghan/baininghan.gitee.io.git,master
+
+# abbrlink 短链接（基于 title+date 生成稳定 hash，URL 永不失效）
+abbrlink:
+  alg: crc32   # crc16 / crc32
+  rep: hex     # dec / hex
+  drafts: false
+
+# mermaid 渲染（hexo-filter-mermaid-diagrams 插件）
+mermaid:
+  enable: true
+  version: '10.9.1'   # 最新稳定版，支持 gantt/sequence/class/state 等
+  options:
+    theme: 'forest'   # 可选：default / forest / dark / neutral

@@ -1,8 +1,13 @@
 ---
 title: SpringCloud入门
+top: true
+summary: >-
+  Spring Cloud 入门系列学习路径汇总，从 10 分钟概览到 Eureka/Ribbon/Hystrix/Feign/Zuul/Config
+  等核心组件实战，给后端架构升级一份循序渐进的索引。
+tags: Java
+categories: 技术
+abbrlink: b26c0f3f
 date: 2024-03-05 16:34:11
-tags: "Java"
-categories: "技术"
 ---
 
 [Spring Cloud入门-十分钟了解Spring Cloud-CSDN博客](https://blog.csdn.net/ThinkWon/article/details/103715146)

@@ -107,6 +107,43 @@
         </div>
         <div class="col s12 m4 l4 social-link <%- socialClass %>"><%- partial('_partial/social-link') %></div>
     </div>
+
+    <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+    <script>
+        // 将 busuanzi 异步注入的 PV/UV 原始数字格式化为中文友好的紧凑显示
+        // 规则：<1000 原样；1k~1万 用 k；1万~1亿 用「万」；>=1亿 用「亿」
+        //   856 -> 856 ；1234 -> 1.2k ；12345 -> 1.2万 ；125000 -> 12.5万 ；1250000 -> 125万 ；123000000 -> 1.2亿
+        (function () {
+            function formatCn(raw) {
+                var n = parseInt(String(raw).replace(/[^0-9]/g, ''), 10);
+                if (!n || isNaN(n)) return null;
+                if (n < 1000)      return String(n);                          // 856
+                if (n < 10000)     return (Math.round(n / 100) / 10) + 'k';   // 1.2k
+                if (n < 1000000)   return (Math.round(n / 1000) / 10) + '万'; // 12.3万
+                if (n < 100000000) return Math.round(n / 10000) + '万';       // 125万（百万级取整不带小数）
+                return (Math.round(n / 10000000) / 10) + '亿';                // 1.2亿
+            }
+            function watch(id) {
+                var el = document.getElementById(id);
+                if (!el) return;
+                var apply = function () {
+                    var raw = (el.textContent || '').trim();
+                    if (!raw || /[k万亿]$/i.test(raw)) return; // 已格式化或为空跳过
+                    var formatted = formatCn(raw);
+                    if (formatted && formatted !== raw) {
+                        el.textContent = formatted;
+                    }
+                };
+                // 兼容 busuanzi 先于 observer 写入的极端情况
+                apply();
+                var observer = new MutationObserver(apply);
+                observer.observe(el, { childList: true, characterData: true, subtree: true });
+            }
+            watch('busuanzi_value_site_pv');
+            watch('busuanzi_value_site_uv');
+        })();
+    </script>
+    <% } %>
 </footer>
 
 <div class="progress-bar"></div>

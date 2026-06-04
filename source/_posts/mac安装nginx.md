@@ -1,9 +1,9 @@
 ---
 title: mac安装nginx
+tags: Nginx
+categories: 技术
+abbrlink: '476e8357'
 date: 2024-03-22 20:34:11
-tags: "Nginx"
-categories: "技术"
-
 ---
 
 nginx

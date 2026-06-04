@@ -4,6 +4,64 @@
     <% if (theme.sharejs.enable) { %>
     <div class="social-share" data-sites="<%- theme.sharejs.sites %>" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
     <script src="<%- theme.jsDelivr.url %><%- url_for('/libs/share/js/social-share.min.js') %>"></script>
+
+    <%# 头条按钮：social-share.js 不内置 toutiao，且头条无官方 Web 分享 intent URL；%>
+    <%# 折中方案 = 复制当前页 URL 到剪贴板 + 新窗打开头条首页（用户可粘贴发布微头条）。%>
+    <style>
+      #article-share .matery-share-toutiao{
+        display:inline-block;width:32px;height:32px;line-height:30px;text-align:center;
+        border-radius:50%;border:1px solid #ff4f17;color:#ff4f17;
+        font-size:14px;font-weight:bold;text-decoration:none;vertical-align:middle;
+        margin-left:6px;cursor:pointer;transition:all .3s;
+      }
+      #article-share .matery-share-toutiao:hover{background:#ff4f17;color:#fff;}
+      #article-share .matery-share-toast{
+        position:fixed;left:50%;top:20%;transform:translateX(-50%);
+        background:rgba(0,0,0,.78);color:#fff;padding:10px 18px;border-radius:6px;
+        font-size:14px;z-index:9999;opacity:0;transition:opacity .3s;pointer-events:none;
+      }
+      #article-share .matery-share-toast.show{opacity:1;}
+    </style>
+    <script>
+      (function(){
+        function inject(){
+          var box = document.querySelector('#article-share .social-share');
+          if(!box || box.querySelector('.matery-share-toutiao')) return;
+          var a = document.createElement('a');
+          a.className = 'matery-share-toutiao';
+          a.title = '复制链接并打开头条（无官方分享接口，折中方案）';
+          a.textContent = '头';
+          a.addEventListener('click', function(e){
+            e.preventDefault();
+            var url = location.href;
+            var done = function(){
+              var t = document.createElement('div');
+              t.className = 'matery-share-toast';
+              t.textContent = '链接已复制，已为你打开头条，粘贴即可分享';
+              document.body.appendChild(t);
+              requestAnimationFrame(function(){ t.classList.add('show'); });
+              setTimeout(function(){ t.classList.remove('show'); setTimeout(function(){ t.remove(); }, 400); }, 2000);
+              window.open('https://www.toutiao.com/', '_blank', 'noopener');
+            };
+            if(navigator.clipboard && window.isSecureContext){
+              navigator.clipboard.writeText(url).then(done, done);
+            }else{
+              var ta = document.createElement('textarea');
+              ta.value = url; ta.style.position='fixed'; ta.style.opacity='0';
+              document.body.appendChild(ta); ta.select();
+              try{ document.execCommand('copy'); }catch(_){}
+              ta.remove(); done();
+            }
+          });
+          box.appendChild(a);
+        }
+        if(document.readyState === 'loading'){
+          document.addEventListener('DOMContentLoaded', inject);
+        }else{
+          inject();
+        }
+      })();
+    </script>
     <% } %>
 
     <% if (theme.addthis.enable) { %>

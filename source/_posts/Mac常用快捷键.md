@@ -1,8 +1,9 @@
 ---
 title: Mac常用快捷键
+tags: Mac快捷键
+categories: Mac
+abbrlink: 4d0c05f6
 date: 2024-03-26 19:28:11
-tags: "Mac快捷键"
-categories: "Mac"
 ---
 
 // 访达

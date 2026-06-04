@@ -14,6 +14,9 @@ menu:
   Archives:
     url: /archives
     icon: fas fa-archive
+  方法论:
+    url: /posts/pmp.html
+    icon: fas fa-project-diagram
   工具:
     url: /tools
     icon: fas fa-tools
@@ -86,7 +89,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false     # 关闭吸底音乐，避免抢占首屏注意力（2026-06-04 改造）
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -175,6 +178,8 @@ socialLink:
   #weibo: # https://weibo.com/xxx
   #zhihu: # https://www.zhihu.com/xxx
   toutiao: https://www.toutiao.com/c/user/token/MS4wLjABAAAAPdH28k4wjDkGmQnOyHzjoQ6oFeEqoZkcl0g0rcUrmMU/?
+  wechat: 程序员老白 # 微信公众号名称，hover 时显示
+  wechatQrcode: /medias/wechat-mp.jpg # 可选：公众号二维码图片路径，配了之后点击图标会跳转到二维码图片
   rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -601,7 +606,7 @@ tidio:
 # 腾讯兔小巢，见https://txc.qq.com/
 # 邀请链接：https://txc.qq.com/minvite.html?s=871662fb67
 tuxiaochao:
-  enable: true
+  enable: false
   productId: 644804
 #背景canvas-nest
 canvas_nest:
@@ -625,10 +630,13 @@ ribbon_dynamic:
   enable: false
 
 # sharejs文章分享模块.
-# 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
+# 库内置可选站点：qq, qzone, wechat, weibo, douban, twitter, facebook, linkedin
+# 注：google(Google+ 已关停) / diandian(点点已倒闭) 已从库中移除，写了也不生效
+# 注：toutiao(今日头条) 无官方 Web 分享接口，库不支持；由 share.ejs 自定义按钮单独注入
 sharejs:
   enable: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  # 仅启用国内 5 个常用站点；头条由 share.ejs 自定义按钮注入（库本身不支持）
+  sites: qq,qzone,wechat,weibo,douban
 
 # addthis文章分享模块.
 addthis:
@@ -685,16 +693,16 @@ icp:
 # 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
-  url: https://cdn.jsdelivr.net/gh/baininghan/baininghan.github.io
+  url: https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io
   
 # 网站背景图
 background:
   enable: false
-  url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
+  url: "https://gcore.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
 
 # 说说 https://artitalk.js.org/
 artitalk:
-  enable: true
+  enable: false
   appId: jdMhv3YbvNaRj318OkhPAKdS-MdYXbMMI
   appKey: SBuLelw8sqhy6w20T7oCDBrw
 
@@ -748,7 +756,7 @@ bbtime:
 # {% endmermaid %}
 # mermaid chart。 依赖hexo-tag-mermaid
 mermaid: ## mermaid url https://github.com/knsv/mermaid
-  enable: false  # default false
+  enable: true    # 启用，layout.ejs 内已改用 CDN 上的 mermaid v10（2026-06-04 二次修复）
   version: "latest" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true

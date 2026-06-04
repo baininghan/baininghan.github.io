@@ -35,12 +35,16 @@
     	keyWords = title ? title  + ', ' + keyWords : keyWords;
     }
 
-    // description.
+    // description. (2026-06-04 优化：清理换行与连续空白，避免 description 出现 "\n\n## 标题..." 的丑陋开头)
     var description = config.description ? config.description : config.title;
     if (page.summary) {
         description = page.summary;
     } else if (page.hasOwnProperty('__post') && page.__post) {
-        description = strip_html(page.content).substring(0, 120);
+        description = strip_html(page.content)
+            .replace(/[\r\n\t]+/g, ' ')
+            .replace(/\s{2,}/g, ' ')
+            .trim()
+            .substring(0, 120);
     }
 
     let iconType = 'image/png'
@@ -65,18 +69,44 @@
     <meta name="keywords" content="<%= keyWords %>">
     <meta name="description" content="<%= description %>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="theme-color" content="#4a4a4a">
+
+    <!-- Open Graph (2026-06-04 新增：让微信/QQ/朋友圈分享出现缩略图卡片) -->
+    <meta property="og:type" content="<%= (page.hasOwnProperty('__post') && page.__post) ? 'article' : 'website' %>">
+    <meta property="og:title" content="<%= pageTitle %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:url" content="<%= full_url_for(page.path) %>">
+    <meta property="og:image" content="<%= page.img || full_url_for(theme.favicon) %>">
+    <meta property="og:site_name" content="<%= config.title %>">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= pageTitle %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <% if (page.img) { %>
+    <meta name="twitter:image" content="<%= page.img %>">
+    <% } %>
+
+    <!-- 预连接 CDN (2026-06-04 新增：CDN 首次请求快 50~100ms) -->
+    <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://gcore.jsdelivr.net">
+
     <%- partial('_partial/google-analytics') %>
     <title><%= pageTitle %></title>
     <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- url_for(theme.favicon) %>">
     <%- partial('_partial/main-style') %>
 
+    <!-- jQuery preload：并行下载提速，仍同步执行（matery 内联脚本依赖 $） -->
+    <link rel="preload" as="script" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.jquery) %>">
+
+    <!-- jQuery 必须同步加载：matery 主题大量内联 $ 调用，defer 会导致 ReferenceError -->
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.jquery) %>"></script>
 
 </head>

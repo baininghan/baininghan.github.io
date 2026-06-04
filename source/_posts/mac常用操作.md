@@ -1,8 +1,9 @@
 ---
 title: mac常用操作
+tags: 记录
+categories: 技术
+abbrlink: ad3fbb4b
 date: 2024-03-05 16:34:11
-tags: "记录"
-categories: "技术"
 ---
 
 ### mac电脑安装软件，提示已损坏

@@ -59,7 +59,7 @@ layout: "tools"
 
 #### Ruby
 
-[Hackety](http://hackety.com/)  此网站需要**科学上网**才能访问
+[Hackety](http://hackety.com/)  此网站可能需要在境外网络环境下访问
 
 #### 其他
 

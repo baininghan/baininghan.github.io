@@ -1,8 +1,9 @@
 ---
 title: demo_typescript
+tags: typescript
+categories: 前端
+abbrlink: 948f26bf
 date: 2024-04-08 16:38:46
-tags: "typescript"
-categories: "前端"
 ---
 
 ```sh

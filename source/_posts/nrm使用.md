@@ -1,8 +1,9 @@
 ---
 title: nrm使用
+tags: nrm
+categories: npm
+abbrlink: 37a29c4c
 date: 2024-04-10 13:49:08
-tags: "nrm"
-categories: "npm"
 ---
 
 nrm用于在开发阶段，管理npm的镜像源。

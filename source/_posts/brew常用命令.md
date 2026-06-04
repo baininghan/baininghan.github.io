@@ -1,8 +1,9 @@
 ---
 title: brew常用命令
+tags: Homebrew
+categories: Mac
+abbrlink: 276982ef
 date: 2024-03-26 19:42:29
-tags: "Homebrew"
-categories: "Mac"
 ---
 
 ```bash

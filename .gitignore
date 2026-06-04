@@ -7,4 +7,9 @@ public/
 .deploy*/
 _multiconfig.yml
 .github/
-.git
+.git# 备份文件
+*.bak
+*.bak.*
+
+# Hexo 草稿（本地写作用，不发布）
+source/_drafts/
