@@ -36,9 +36,9 @@
     </author>
     <category term="项目管理" scheme="http://baininghan.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
     <category term="PMP" scheme="http://baininghan.github.io/tags/PMP/"/>
+    <category term="PMBOK" scheme="http://baininghan.github.io/tags/PMBOK/"/>
     <category term="项目管理" scheme="http://baininghan.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
     <category term="方法论" scheme="http://baininghan.github.io/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="PMBOK" scheme="http://baininghan.github.io/tags/PMBOK/"/>
     <category term="IT项目" scheme="http://baininghan.github.io/tags/IT%E9%A1%B9%E7%9B%AE/"/>
     <id>http://baininghan.github.io/posts/pmp.html</id>
     <link href="http://baininghan.github.io/posts/pmp.html"/>
@@ -60,9 +60,9 @@
     <category term="项目管理" scheme="http://baininghan.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
     <category term="PMP" scheme="http://baininghan.github.io/tags/PMP/"/>
     <category term="项目管理" scheme="http://baininghan.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    <category term="方法论" scheme="http://baininghan.github.io/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     <category term="央国企" scheme="http://baininghan.github.io/tags/%E5%A4%AE%E5%9B%BD%E4%BC%81/"/>
     <category term="工程项目" scheme="http://baininghan.github.io/tags/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/"/>
-    <category term="方法论" scheme="http://baininghan.github.io/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     <id>http://baininghan.github.io/posts/c6baed34.html</id>
     <link href="http://baininghan.github.io/posts/c6baed34.html"/>
     <published>2026-06-04T02:00:00.000Z</published>
@@ -222,6 +222,21 @@
       <name>程序员老白</name>
     </author>
     <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="记录" scheme="http://baininghan.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    <id>http://baininghan.github.io/posts/ad3fbb4b.html</id>
+    <link href="http://baininghan.github.io/posts/ad3fbb4b.html"/>
+    <published>2024-03-05T08:34:11.000Z</published>
+    <summary>
+      <![CDATA[<h3 id="mac电脑安装软件，提示已损坏"><a href="#mac电脑安装软件，提示已损坏" class="headerlink" title="mac电脑安装软件，提示已损坏"></a>mac电脑安装软件，提示已损坏</h3><figure]]>
+    </summary>
+    <title>mac常用操作</title>
+    <updated>2026-06-04T02:58:26.048Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>程序员老白</name>
+    </author>
+    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     <category term="Java" scheme="http://baininghan.github.io/tags/Java/"/>
     <id>http://baininghan.github.io/posts/b26c0f3f.html</id>
     <link href="http://baininghan.github.io/posts/b26c0f3f.html"/>
@@ -232,20 +247,5 @@
     </summary>
     <title>SpringCloud入门</title>
     <updated>2026-06-04T02:58:26.046Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>程序员老白</name>
-    </author>
-    <category term="技术" scheme="http://baininghan.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    <category term="记录" scheme="http://baininghan.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
-    <id>http://baininghan.github.io/posts/ad3fbb4b.html</id>
-    <link href="http://baininghan.github.io/posts/ad3fbb4b.html"/>
-    <published>2024-03-05T08:34:11.000Z</published>
-    <summary>
-      <![CDATA[<h3 id="mac电脑安装软件，提示已损坏"><a href="#mac电脑安装软件，提示已损坏" class="headerlink" title="mac电脑安装软件，提示已损坏"></a>mac电脑安装软件，提示已损坏</h3><figure]]>
-    </summary>
-    <title>mac常用操作</title>
-    <updated>2026-06-04T02:58:26.048Z</updated>
   </entry>
 </feed>
