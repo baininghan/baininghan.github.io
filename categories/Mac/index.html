@@ -7,13 +7,33 @@
     <meta name="keywords" content="分类: Mac, 项目管理,PMP,ACP,产品设计,系统架构,Java,Vue,前端,微信小程序,数字化转型">
     <meta name="description" content="聚焦企业级数字化项目设计与项目管理方法论落地，分享PMP/ACP实践、系统架构、全栈技术与产品工程经验。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="theme-color" content="#4a4a4a">
+
+    <!-- Open Graph (2026-06-04 新增：让微信/QQ/朋友圈分享出现缩略图卡片) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="分类: Mac | 程序员老白">
+    <meta property="og:description" content="聚焦企业级数字化项目设计与项目管理方法论落地，分享PMP/ACP实践、系统架构、全栈技术与产品工程经验。">
+    <meta property="og:url" content="http://baininghan.github.io/categories/Mac/index.html">
+    <meta property="og:image" content="http://baininghan.github.io/favicon.png">
+    <meta property="og:site_name" content="程序员老白">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="分类: Mac | 程序员老白">
+    <meta name="twitter:description" content="聚焦企业级数字化项目设计与项目管理方法论落地，分享PMP/ACP实践、系统架构、全栈技术与产品工程经验。">
+    
+
+    <!-- 预连接 CDN (2026-06-04 新增：CDN 首次请求快 50~100ms) -->
+    <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://gcore.jsdelivr.net">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
@@ -50,6 +70,10 @@
 
 
 
+    <!-- jQuery preload：并行下载提速，仍同步执行（matery 内联脚本依赖 $） -->
+    <link rel="preload" as="script" href="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/libs/jquery/jquery-3.6.0.min.js">
+
+    <!-- jQuery 必须同步加载：matery 主题大量内联 $ 调用，defer 会导致 ReferenceError -->
     <script src="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/libs/jquery/jquery-3.6.0.min.js"></script>
 
 <meta name="generator" content="Hexo 7.3.0">
@@ -392,19 +416,19 @@
                 </a>
                 
                 
-                <a href="/categories/Mac/" title="Mac: 2">
+                <a href="/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/" title="项目管理: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F5EEF8;">Mac
+                             chip-default "
+                            style="background-color: #F5EEF8;">项目管理
                         <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/" title="项目管理: 2">
+                <a href="/categories/Mac/" title="Mac: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #D5F5E3;">项目管理
+                             chip-active "
+                            style="background-color: #D5F5E3;">Mac
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -636,8 +660,53 @@
 
 
 
+    
+        <a href="/medias/wechat-mp.jpg" target="_blank" class="tooltipped" data-tooltip="微信公众号：程序员老白（点击查看二维码）" data-position="top" data-delay="50">
+            <i class="fab fa-weixin"></i>
+        </a>
+    
+
+
+
 </div>
     </div>
+
+    
+    <script>
+        // 将 busuanzi 异步注入的 PV/UV 原始数字格式化为中文友好的紧凑显示
+        // 规则：<1000 原样；1k~1万 用 k；1万~1亿 用「万」；>=1亿 用「亿」
+        //   856 -> 856 ；1234 -> 1.2k ；12345 -> 1.2万 ；125000 -> 12.5万 ；1250000 -> 125万 ；123000000 -> 1.2亿
+        (function () {
+            function formatCn(raw) {
+                var n = parseInt(String(raw).replace(/[^0-9]/g, ''), 10);
+                if (!n || isNaN(n)) return null;
+                if (n < 1000)      return String(n);                          // 856
+                if (n < 10000)     return (Math.round(n / 100) / 10) + 'k';   // 1.2k
+                if (n < 1000000)   return (Math.round(n / 1000) / 10) + '万'; // 12.3万
+                if (n < 100000000) return Math.round(n / 10000) + '万';       // 125万（百万级取整不带小数）
+                return (Math.round(n / 10000000) / 10) + '亿';                // 1.2亿
+            }
+            function watch(id) {
+                var el = document.getElementById(id);
+                if (!el) return;
+                var apply = function () {
+                    var raw = (el.textContent || '').trim();
+                    if (!raw || /[k万亿]$/i.test(raw)) return; // 已格式化或为空跳过
+                    var formatted = formatCn(raw);
+                    if (formatted && formatted !== raw) {
+                        el.textContent = formatted;
+                    }
+                };
+                // 兼容 busuanzi 先于 observer 写入的极端情况
+                apply();
+                var observer = new MutationObserver(apply);
+                observer.observe(el, { childList: true, characterData: true, subtree: true });
+            }
+            watch('busuanzi_value_site_pv');
+            watch('busuanzi_value_site_uv');
+        })();
+    </script>
+    
 </footer>
 
 <div class="progress-bar"></div>
@@ -831,16 +900,11 @@ $(function () {
     <script async src="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
-    
+    <!-- 已清理：tidio 在线客服 widget（2026-06-04，付费 SaaS 不会使用） -->
 
-    
+    <!-- 已清理：daovoice 在线客服 widget（2026-06-04，付费 SaaS 不会使用） -->
 
-    <!--腾讯兔小巢-->
-    
-        <div style="position:fixed;bottom:125px;right:16px;cursor: pointer;">
-            <a title="兔小巢" target="_blank" rel="noopener" href="https://support.qq.com/products/644804"><i class="fa fa-comments fa-3x"  aria-hidden="true"></i></a>
-        </div>
-    
+    <!-- 已清理：腾讯兔小巢按钮（2026-06-04，productId 为 matery 示范 ID 不可用，用户已禁用） -->
     
 
     
