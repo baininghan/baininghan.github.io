@@ -1339,6 +1339,12 @@ $(function () {
     <script src="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/js/matery.js"></script>
 
     
+        <!-- 2026-06-04 升级：改用 mermaid v10 ESM 模式，原生支持 gantt/sequence/class/state，配合 hexo-filter-mermaid-diagrams 渲染 -->
+        <script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs';
+          mermaid.initialize({ startOnLoad: true, theme: 'forest', securityLevel: 'loose' });
+        </script>
+    
 
     
     

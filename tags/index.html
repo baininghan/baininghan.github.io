@@ -481,19 +481,28 @@
                 </a>
                 
                 
-                <a href="/tags/typescript/" title="typescript: 1">
+                <a href="/tags/Nginx/" title="Nginx: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="typescript" style="background-color: #F9E79F;">typescript
+                            data-tagname="Nginx" style="background-color: #F9E79F;">Nginx
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/Nginx/" title="Nginx: 1">
+                <a href="/tags/typescript/" title="typescript: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Nginx" style="background-color: #F9E79F;">Nginx
+                            data-tagname="typescript" style="background-color: #F5EEF8;">typescript
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/nrm/" title="nrm: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="nrm" style="background-color: #F8C471;">nrm
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -508,10 +517,10 @@
                 </a>
                 
                 
-                <a href="/tags/nrm/" title="nrm: 1">
+                <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88/" title="微信小程序备案: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="nrm" style="background-color: #F8C471;">nrm
+                            data-tagname="微信小程序备案" style="background-color: #85C1E9;">微信小程序备案
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -552,15 +561,6 @@
                     </span>
                 </a>
                 
-                
-                <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88/" title="微信小程序备案: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="微信小程序备案" style="background-color: #85C1E9;">微信小程序备案
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
             </div>
         </div>
     </div>
@@ -585,7 +585,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"科学上网","weight":1,"link":"/tags/科学上网/"},{"text":"Mac快捷键","weight":1,"link":"/tags/Mac快捷键/"},{"text":"PMP","weight":2,"link":"/tags/PMP/"},{"text":"项目管理","weight":2,"link":"/tags/项目管理/"},{"text":"央国企","weight":1,"link":"/tags/央国企/"},{"text":"工程项目","weight":1,"link":"/tags/工程项目/"},{"text":"方法论","weight":2,"link":"/tags/方法论/"},{"text":"PMBOK","weight":1,"link":"/tags/PMBOK/"},{"text":"IT项目","weight":1,"link":"/tags/IT项目/"},{"text":"Java","weight":1,"link":"/tags/Java/"},{"text":"Homebrew","weight":1,"link":"/tags/Homebrew/"},{"text":"typescript","weight":1,"link":"/tags/typescript/"},{"text":"Nginx","weight":1,"link":"/tags/Nginx/"},{"text":"记录","weight":1,"link":"/tags/记录/"},{"text":"nrm","weight":1,"link":"/tags/nrm/"},{"text":"在线API","weight":1,"link":"/tags/在线API/"},{"text":"微信小程序","weight":1,"link":"/tags/微信小程序/"},{"text":"定制开发","weight":1,"link":"/tags/定制开发/"},{"text":"项目合作","weight":1,"link":"/tags/项目合作/"},{"text":"微信小程序备案","weight":1,"link":"/tags/微信小程序备案/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"科学上网","weight":1,"link":"/tags/科学上网/"},{"text":"Mac快捷键","weight":1,"link":"/tags/Mac快捷键/"},{"text":"PMP","weight":2,"link":"/tags/PMP/"},{"text":"项目管理","weight":2,"link":"/tags/项目管理/"},{"text":"央国企","weight":1,"link":"/tags/央国企/"},{"text":"工程项目","weight":1,"link":"/tags/工程项目/"},{"text":"方法论","weight":2,"link":"/tags/方法论/"},{"text":"PMBOK","weight":1,"link":"/tags/PMBOK/"},{"text":"IT项目","weight":1,"link":"/tags/IT项目/"},{"text":"Java","weight":1,"link":"/tags/Java/"},{"text":"Homebrew","weight":1,"link":"/tags/Homebrew/"},{"text":"Nginx","weight":1,"link":"/tags/Nginx/"},{"text":"typescript","weight":1,"link":"/tags/typescript/"},{"text":"nrm","weight":1,"link":"/tags/nrm/"},{"text":"记录","weight":1,"link":"/tags/记录/"},{"text":"微信小程序备案","weight":1,"link":"/tags/微信小程序备案/"},{"text":"在线API","weight":1,"link":"/tags/在线API/"},{"text":"微信小程序","weight":1,"link":"/tags/微信小程序/"},{"text":"定制开发","weight":1,"link":"/tags/定制开发/"},{"text":"项目合作","weight":1,"link":"/tags/项目合作/"}], {
         autoResize: true
     });
 </script>
@@ -816,6 +816,12 @@ $(function () {
     <script src="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://gcore.jsdelivr.net/gh/baininghan/baininghan.github.io/js/matery.js"></script>
 
+    
+        <!-- 2026-06-04 升级：改用 mermaid v10 ESM 模式，原生支持 gantt/sequence/class/state，配合 hexo-filter-mermaid-diagrams 渲染 -->
+        <script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs';
+          mermaid.initialize({ startOnLoad: true, theme: 'forest', securityLevel: 'loose' });
+        </script>
     
 
     
